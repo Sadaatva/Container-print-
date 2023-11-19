@@ -13,9 +13,11 @@ void Print(const conteiner& obyekt, const std::string& razdeli){
     std::cout << *iter;
     ++iter;
   }
+  
   for(; iter!=obyekt.end(); ++iter){
     std::cout << razdeli << *iter;
   }
+  
 }
 int main(){
   std::vector<int> V={7,14,21,28,35};
